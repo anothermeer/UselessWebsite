@@ -1,0 +1,38 @@
+body {
+  background-color: #f2f2f2;
+  font-family: monospace,Verdana;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 3em;
+  color: #333333;
+}
+
+#playlist {
+  text-align: center;
+  margin: 50px;
+}
+
+#playlist li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 1.5em;
+  color: #333333;
+}
+
+#playlist a {
+  text-decoration: none;
+  color: #333333;
+}
+
+#playlist a:hover {
+  color: #0066ff;
+}
+
+#audioPlayer {
+  display: block;
+  margin: 50px auto;
+  width: 50%;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {background-color:pink ;}
+            h1 {font-family: Arial, Helvetica, sans-serif;}
+            title {font-family: Arial, Helvetica, sans-serif}
+        </style>
+        <title>
+            Age detector
+        </title>
+    </head>
+
+    <body>
+        <h1>Age detector</h1>
+    
+        <h2>Result : </h2>
+    
+        <button onclick="func1()">TEST NOW</button>
+    
+        <p id="func1"></p>
+    
+        <script>
+            function func1() {
+                let age = prompt("your age")
+                if (age !=null) {
+                    document.getElementById("func1").innerHTML = 
+                    "You are now " + age + " years old"
+                }
+            }
+        </script>
+    
+    </body>
+</html>

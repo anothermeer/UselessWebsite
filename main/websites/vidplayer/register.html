@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <script src="register.js"></script>
+    <title>Phoenix Video Player - Register</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h2>Register</h2>
+            <form id="loginForm" method="post" name="loginForm">
+                <label>Username :</label>
+                <input type="text" name="username" id="username"/>
+                <label>Password :</label>
+                <input type="password" name="password" id="password"/>
+                <label>Confirm Password :</label>
+                <input type="password" name="confirmPassword" id="confirmPassword"/>
+                <input type="button" value="Register" id="submit" onclick="validate()"/>
+                <input type="button" value="Login" id="loginPAGE" onclick="TurnToLoginPage()"/>
+                <input type="button" value="Back To Main Page" id="backToMainPage" onclick="BackToMain()"/>
+            </form>
+        </div>
+    </div>
+
+    <script>
+
+        function checkPass(form) {
+            pass1 = form.password.value;
+            pass2 = form.confirmPassword.value;
+            if (pass1 == '')
+                alert ("Please enter password!");
+
+            else if (pass2 == '')
+                alert ("Please enter Confirmation password!");
+
+            else if (pass1 != pass2) {
+                alert ("\nPassword did not match: Please try again...")
+                    return false;
+            }
+
+            else {
+                window.location = "success.html";
+                return false;
+            }
+        }
+
+
+    function TurnToLoginPage() {
+    document.getElementById("loginPAGE");
+    location.href = "login.html"
+    }
+
+    function BackToMain() {
+        document.getElementById("backToMainPage");
+        location.href = "main.html"
+    }
+    </script>
+
+</body>
+</html>
