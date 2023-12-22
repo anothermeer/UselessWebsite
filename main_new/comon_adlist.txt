@@ -1,0 +1,4 @@
+# Title: comon ad lists
+# Count: 1 domains
+
+0.0.0.0 cpro.baidu.com
