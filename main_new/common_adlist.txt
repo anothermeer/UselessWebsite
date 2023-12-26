@@ -1,6 +1,9 @@
 # Title: comon ad lists
-# Count: 3 domains
+# Description : When I sees an ad, I add it here.
+# Count: 4 domains
 
 0.0.0.0 cpro.baidu.com
 0.0.0.0 union.baidu.com
 0.0.0.0 wangmeng.baidu.com
+0.0.0.0 adclick.g.doubleclick.net
+0.0.0.0 ad.doubleclick.net
