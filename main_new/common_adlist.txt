@@ -1,6 +1,6 @@
 # Title: comon ad lists
 # Description : When I sees an ad, I add it here.
-# Count: 16 domains
+# Count: 17 domains
 
 0.0.0.0 cpro.baidu.com
 0.0.0.0 union.baidu.com
@@ -18,3 +18,4 @@
 0.0.0.0 am-api.taboola.com
 0.0.0.0 obseu.bizseasky.com
 0.0.0.0 appsflyer.com
+0.0.0.0 taboola.com
