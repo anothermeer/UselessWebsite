@@ -1,9 +1,20 @@
 # Title: comon ad lists
 # Description : When I sees an ad, I add it here.
-# Count: 5 domains
+# Count: 16 domains
 
 0.0.0.0 cpro.baidu.com
 0.0.0.0 union.baidu.com
 0.0.0.0 wangmeng.baidu.com
 0.0.0.0 adclick.g.doubleclick.net
 0.0.0.0 ad.doubleclick.net
+0.0.0.0 sin3-ib.adnxs.com
+0.0.0.0 www.googleadservices.com
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 cat.sg1.as.criteo.com
+0.0.0.0 am-api.taboola.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 o.clarity.ms
+0.0.0.0 am-api.taboola.com
+0.0.0.0 obseu.bizseasky.com
+0.0.0.0 appsflyer.com
