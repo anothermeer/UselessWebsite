@@ -1,6 +1,6 @@
 # Title: comon ad lists
 # Description : When I sees an ad, I add it here.
-# Count: 29 domains
+# Count: 30 domains
 
 0.0.0.0 cpro.baidu.com
 0.0.0.0 union.baidu.com
@@ -26,6 +26,7 @@
 0.0.0.0 imageproxy.as.criteo.net
 0.0.0.0 exch.quantserve.com
 0.0.0.0 aax.amazon-adsystem.com
+0.0.0.0 b.r.sn.cn
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 aax-fe-sin.amazon-adsystem.com
