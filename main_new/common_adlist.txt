@@ -37,3 +37,4 @@
 0.0.0.0 ukrainefriends.org
 0.0.0.0 mriyaaid.ca
 0.0.0.0 it-kharkiv.com
+0.0.0.0 www.u-aid.org
