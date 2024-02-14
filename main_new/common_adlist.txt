@@ -1,6 +1,6 @@
 # Title: comon ad lists
 # Description : When I sees an ad, I add it here.
-# Count: 34 domains
+# Count: 35 domains
 
 0.0.0.0 cpro.baidu.com
 0.0.0.0 union.baidu.com
@@ -38,3 +38,5 @@
 0.0.0.0 mriyaaid.ca
 0.0.0.0 it-kharkiv.com
 0.0.0.0 www.u-aid.org
+#  aternos ads
+0.0.0.0 exaroton.com
