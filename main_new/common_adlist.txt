@@ -40,3 +40,4 @@
 0.0.0.0 www.u-aid.org
 #  aternos ads
 0.0.0.0 exaroton.com
+0.0.0.0 track.wargaming-aff.com
