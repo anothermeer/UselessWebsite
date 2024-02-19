@@ -1,6 +1,6 @@
 # Title: comon ad lists
 # Description : When I sees an ad, I add it here.
-# Count: 35 domains
+# Count: 36 domains
 
 0.0.0.0 cpro.baidu.com
 0.0.0.0 union.baidu.com
