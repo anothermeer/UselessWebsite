@@ -1,6 +1,6 @@
 # Title: comon ad lists
 # Description : When I sees an ad, I add it here.
-# Count: 44 domains
+# Count: 45 domains
 
 0.0.0.0 cpro.baidu.com
 0.0.0.0 union.baidu.com
@@ -47,3 +47,4 @@
 0.0.0.0 www.u-aid.org
 0.0.0.0 exaroton.com
 0.0.0.0 track.wargaming-aff.com
+0.0.0.0 fish11.cc
