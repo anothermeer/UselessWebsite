@@ -45,7 +45,8 @@ nav a:hover {
     color: lightskyblue;
 }
 
-.dropdown {
+/* This is for nav dropdown menu, but it's abandoned */
+/* .dropdown {
     float: left;
     overflow: hidden;
 }
@@ -66,5 +67,5 @@ nav a:hover {
 
 .dropdown:hover .dropdown-content{
     display: block;
-    
-}
+}*/
+
