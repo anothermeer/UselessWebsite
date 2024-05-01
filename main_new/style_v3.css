@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Permanent+Marker&display=swap');
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: #4D4D4D;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+nav {
+    padding: 10px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    text-align: right;
+    font-family: Lato;
+    padding-left: 15px;
+    transition-duration: 0.2s;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #ffffff;
+    transition-duration: 0.2s
+}
+
+#welcome {
+    color: white;
+    font-family: Lato;
+    text-align: center;
+    border: 5px gray solid;
+    margin: 20px;
+
+}
+
+.linkformat {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropdownbtn {
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    
+}

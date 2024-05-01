@@ -1,69 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
-    <title>Useless Website</title>
-    <!--#F0EDE4--!>
-    <style>
-        body{
-            background-color: #80ffd5;
-            text-align: center;
-            padding: 10px;
-        }
-        .btn {
-            -webkit-border-radius: 28;
-            -moz-border-radius: 28;
-            border-radius: 28px;
-            font-family: Arial;
-            color: #ffffff;
-            font-size: 25px;
-            background: #80ffd5;
-            padding: 10px 20px 10px 20px;
-            text-decoration: none;
-}
-
-        .btn:hover {
-            background: #74e3be;
-            text-decoration: none;
-}
-        .footer {
-            position: fixed;
-            text-align: center;
-            background-color: aquamarine;
-            color: white;
-            bottom: 0;
-}
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Just a normal website (aka useless website)">
+    <link rel="stylesheet" href="style.css">
+    <title>Melonlinks - Home</title>
 </head>
 <body>
-    <h2>Useless Website</h2>
-    <strong><p>Feel free to take a look at my projects!</p></strong>
-    <button class="btn" onclick="PVP()">Phoenix Video Player</button>
-    <button class="btn" onclick="BHMS()">Bit Haven Music Streamer</button>
-    <button class="btn" onclick="XSRV()">Xserver</button>
-    <button class="btn" onclick="LINKS()">Files</button>
-    <div class="footer">
-        <p>Donate me : </p>
-        <a href="monero://49ms22wR6grVwgcoB9Q2oLTFawCsh6x6uERAnsXVA4v87c17DyxzqwgPuaUZDczZvTihy25yz7grV7EPGAwiGuW2QMRGskE">Monero</a>
-        <p>Duitnow : 121421604215</p>
-    </div>
+    <header>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <div id="dropdown">
+                <button id="dropdownbtn">Projects
+                    <i class="fa fa-caret-down"></i> <!-- font awesome arrow icon -->
+                </button>
+                <div id="dropdown-content">
+                    <a href="/bhms/">Bit Haven Music Streamer</a>
+                    <a href="/pvp/">Phoenix Video Player</a
+                    <a href="#">Comming Soon!</a>
+                </div>
+            </div>>
 
-    <script>
-        function PVP() {
-            location.href = "pvp"
-        }
+            <!-- <a id="dropdown" href="#">Projects
+                <a id="dropcontent" href="/bhms/">Bit Haven Music Streamer</a>
+                <a id="dropcontent" href="/pvp/">Phoenix Video Player</a>
+            </a> -->
+            <a href="/files/">Files</a>
+            <a href="/donate/">Donate Me!</a>
+        </nav>
+    </header>
 
-        function BHMS() {
-            location.href = "bhms"
-        }
-        function XSRV() {
-            location.href = "xserver"
-        }
-        function LINKS() {
-            location.href = "files"
-        }
-    </script>
+    <section id="welcome">
+        <h2>Welcome to my page!</h2>
+        <h3>Feel free to explore my projects!</h3><br><br>
+        <p>I haven decide what to put here... so, please fill <a class="linkformat" href="">here</a> form...</p>
+    </section>
 </body>
 </html>
