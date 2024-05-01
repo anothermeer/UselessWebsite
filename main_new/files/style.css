@@ -6,7 +6,7 @@ body {
     background-color: whitesmoke;
 }
 
-.content {
+#content {
     border: 2px solid lightsteelblue;
     margin-top: 10px;
     margin-left: 5px;
