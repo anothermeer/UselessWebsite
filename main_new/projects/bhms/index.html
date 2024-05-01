@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- get CSS from web -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css"/>
+
+    <title>Bit Haven Music Streamer</title>
+    <style>
+        body{
+            background-color: #f7f7f7;
+        }
+        img{
+            width: 100%;
+            min-height: 250px;
+            max-height: 250px;
+            max-width: 250px;
+        }
+        .main{
+            padding: 40px 0;
+        }
+        .col-md-2{
+            margin-bottom: 40px;
+        }
+        .album-poster{
+            position: relative;
+            display: block;
+            border-radius: 7px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px #3d2173a1;
+            transition: all ease 0.4s;
+        }
+        .album-poster:hover{
+            box-shadow: none;
+            transform: scale(0.98) translateY(5px);
+        }
+        h3{
+            font-size: 34px;
+            margin-bottom: 34px;
+            border-bottom: 4px solid #e6e6e6;
+            padding-bottom: 15px;
+        }
+        p{
+            font-size: 15px;
+        }
+        h4{
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-top: 15px;
+            font-weight: 700;
+        }
+        #aplayer{
+            position: fixed;
+            bottom: -100%;
+            left: 0;
+            width: 100%;
+            margin: 0;
+            box-shadow: 0 -2px 2px #dadada;
+            background-color: #fff;
+            transition: all ease 0.5s;
+        }
+        #aplayer.showPlayer{
+			bottom: 0;
+		}
+
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Must Listen</h3>
+                </div>
+                <div class="con-md-2">
+                    <a href="javascript:void();", class="album-poster", data-switch="0">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02babcecae4a50a6eef398b493" alt="">
+                    </a>
+                    <h4>Hello, world</h4>
+                    <p>By louie zong - 2018</p>
+                </div>
+                <div class="con-md-2">
+                    <a href="#", class="album-poster", data-switch="1">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02a86c559998e76b1ad224593e" alt="">
+                    </a>
+                    <h4>Eeeaaaooo</h4>
+                    <p>By Patricia Taxxon, Xguiz - 2020</p>
+                </div>
+                <div class="con-md-2">
+                    <a href="#", class="album-poster", data-switch="2">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/b/b4/Shape_Of_You_%28Official_Single_Cover%29_by_Ed_Sheeran.png" alt="">
+                    </a>
+                    <h4>Shape of you</h4>
+                    <p>By Ed Sheeran - 2017</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Latest New Song</h3>
+            </div>
+                <div class="con-md-2">
+                    <a href="#", class="album-poster", data-switch="3">
+                        <img src="https://i.scdn.co/image/ab67616d00001e0295cc54ebc437dcc71832b96b" alt="">
+                    </a>
+                    <h4>Unexplainable</h4>
+                    <p>By Not3s - 2023</p>
+                </div>
+                <div class="con-md-2">
+                    <a href="#", class="album-poster", data-switch="4">
+                    <img src="https://i.scdn.co/image/ab67616d00001e0225dfa614ad18bd212386b48f" alt="">
+                    </a>
+                    <h4>是不是又欠揍了<br>(I'm Your Queen)</h4>
+                    <p>By BOOM！怪物星人 - 2023</p>
+                </div>
+                <div class="con-md-2">
+                    <a href="#", class="album-poster", data-switch="5">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02611e3f54361a4ac7dee9ef83" alt="">
+                    </a>
+                    <h4>Sugar High</h4>
+                    <p>By 王心凌Cyndi Wang - 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="aplayer"></div>
+
+    <!-- JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script>
+    <script>
+
+        $(".album-poster").on("click", function(e){
+            var dataSwitchId = $(this).attr("data-switch");
+            ap.list.switch(dataSwitchId);
+            ap.play();
+            $("#aplayer").addClass('showPlayer');
+        });
+
+        const ap = new APlayer({
+            container: document.getElementById('aplayer'),
+            listFolded: true,
+            audio: [
+                {
+                name: 'Hello World',
+                artist: 'louie zong',
+                url: 'https://melonlinks.netlify.app/bhms/source/hello_world.mp3',
+                cover: 'https://i.scdn.co/image/ab67616d00001e02babcecae4a50a6eef398b493'
+            },
+                {
+                name: 'EEEAAAOOO',
+                artist: 'Patricia Taxxon, Xguiz',
+                url: 'https://melonlinks.netlify.app/bhms/source/eeeaaaooo.mp3',
+                cover: 'https://i.scdn.co/image/ab67616d00001e02a86c559998e76b1ad224593e'
+            },
+                {
+                name: 'Shape Of You',
+                artist: 'Ed Sheeran',
+                url: 'https://melonlinks.netlify.app/bhms/source/shape_of_you.mp3',
+                cover: 'https://upload.wikimedia.org/wikipedia/en/b/b4/Shape_Of_You_%28Official_Single_Cover%29_by_Ed_Sheeran.png'
+            },
+               {
+                name: 'Unexplainable',
+                artist: 'Not3s',
+                url: 'https://melonlinks.netlify.app/bhms/source/unexplainable.mp3',
+                cover: 'https://i.scdn.co/image/ab67616d00001e0295cc54ebc437dcc71832b96b'
+            },
+               {
+                name: '是不是又欠揍了(Im Your Queen)',
+                artist: 'BOOM！怪物星人',
+                url: 'https://melonlinks.netlify.app/bhms/source/im_your_queen.mp3',
+                cover: 'https://i.scdn.co/image/ab67616d00001e0225dfa614ad18bd212386b48f'
+            },
+		{
+                name: 'Sugar High',
+                artist: '王心凌Cyndi Wang',
+                url: 'https://melonlinks.netlify.app/bhms/source/sugar_high.mp3',
+                cover: 'https://i.scdn.co/image/ab67616d00001e02611e3f54361a4ac7dee9ef83'
+            }
+        ]
+        });
+    </script>
+</body>
+</html>
