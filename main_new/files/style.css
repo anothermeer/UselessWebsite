@@ -3,6 +3,14 @@
 body {
     text-align: center;
     font-family: Lato;
-    border: 2px solid lightsteelblue;
     background-color: whitesmoke;
+}
+
+.content {
+    border: 2px solid lightsteelblue;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    padding: 15px;
 }
