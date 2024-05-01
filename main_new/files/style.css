@@ -8,9 +8,10 @@ body {
 
 #content {
     border: 2px solid lightsteelblue;
+    border-radius: 50%;
     margin-top: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 7px;
     padding: 15px;
 }
