@@ -43,8 +43,11 @@
 0.0.0.0 childrenheroes.org
 0.0.0.0 ukrainefriends.org
 0.0.0.0 mriyaaid.ca
+0.0.0.0 www.miraaid.ca
 0.0.0.0 it-kharkiv.com
+0.0.0.0 www.it-kharkiv.com
 0.0.0.0 www.u-aid.org
+0.0.0.0 u-aid.org
 0.0.0.0 exaroton.com
 0.0.0.0 track.wargaming-aff.com
 0.0.0.0 fish11.cc
