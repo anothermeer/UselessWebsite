@@ -15,20 +15,3 @@ body {
     margin-bottom: 7px;
     padding: 15px;
 }
-
-#button {
-    float: right;
-    border: 2px solid whitesmoke;
-    background-color: whitesmoke;
-    border: 10px;
-    border-radius:25px;
-    transition-duration: 0.2s;
-}
-
-#button:hover {
-    background-color: rgb(190, 195, 199);
-    border: 2px solid rgb(190, 195, 199);
-    border: 10px;
-    border-radius:25px;
-    transition-duration: 0.2s;
-}
