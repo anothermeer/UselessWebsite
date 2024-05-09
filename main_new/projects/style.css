@@ -1,0 +1,10 @@
+@import url(/static/uni.css);
+
+.title {
+    color: white;
+}
+
+.content {
+    font-family: Lato;
+    text-align: left;
+}
