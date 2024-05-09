@@ -35,3 +35,8 @@ nav a:hover {
     text-decoration: none;
     color: lightskyblue;
 }
+
+.active {
+    color: white;
+    font-size: medium;
+}
