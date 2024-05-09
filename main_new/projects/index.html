@@ -1,23 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Melonlinks - Projects</title>
-    <style>
-        #linkform {
-            text-decoration: none;
-            color: black;
-        }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Just a normal website (aka melonlinks website)">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="/static/uni.css">
+    <link rel="icon" type="image/x-icon" href="/static/imgs/favicon.ico">
+    <title>Melonlinks - Donate</title>
 </head>
 <body>
-    <h2>Here's are my past projects :</h2>
-    <ul>
-        <li><a class="linkform" href="/bhms/">Bit Haven Music Streamer (bhms)</a></li>
-        <li><a class="linkform" href="/pvp/">Phoenix Video Player (pvp)</a></li>
-        <li><a class="linkform" href="/xserver/">xserver</a></li>
-    </ul>
-    <button onclick="window.history.go(-1); return false;">Go Back</button>
+    <header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/projects/">Projects</a>
+            <a href="/files/">Files</a>
+            <a href="#" class="active">Donate Me!</a>
+        </nav>
+    </header>
+
+    <section class="content">
+        <section class="title">
+            <h2>Projects</h2>
+            <h5>This is the list of my past projects, some are active, some are not.
+                Click to redirect!</h5>
+        </section>
+        <ul>
+            <li href="/projects/bhms/" class="linkformat">Bit Haven Music Streamer or bhms (<b>not</b> active)</li>
+        </ul>
+    </section>
 </body>
 </html>
