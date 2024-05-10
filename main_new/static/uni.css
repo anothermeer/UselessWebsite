@@ -36,9 +36,22 @@ nav a:hover {
 .linkformat {
     text-decoration: none;
     color: lightskyblue;
+    transition-duration: 0.4s;
+}
+
+.linkformat:hover {
+    text-decoration: none;
+    color: skyblue;
+    transition-duration: 0.4s;
 }
 
 .active {
     color: white;
     font-size: medium;
+}
+
+.content {
+    padding-left: 10px;
+    color: white;
+    font-family: Lato;
 }
