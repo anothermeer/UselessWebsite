@@ -3,8 +3,10 @@
 .filecontent {
     border: 5px solid #EAEAEA;
     border-radius: 5px;
-    margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
     margin-top: 12px;
+    margin-bottom: 20px;
 }
 
 .ftitle {
