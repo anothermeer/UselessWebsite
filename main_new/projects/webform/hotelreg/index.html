@@ -6,6 +6,7 @@
     <meta name="description" content="Just a normal website (aka melonlinks website)">
     <link rel="stylesheet" href="/static/css/hotelreg.css">
     <link rel="stylesheet" href="/static/css/uni.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <link rel="icon" type="image/x-icon" href="/static/imgs/favicon.ico">
     <title>Melonlinks - Hotel History</title>
 </head>
@@ -40,6 +41,12 @@
                 <option value="booking.com">booking.com</option>
                 <option value="airbnb">airbnb</option>
             </select><br>
+            <form action="?" method="POST">
+                <div class="g-recaptcha" data-sitekey="6LeZjOEpAAAAANr-GvoanPU_yjWUlValC0BC_bI9"></div>
+            </form>
+            <br>
+            <input type="submit">Submit</input>
+
         </form>
     </section>
 </body>
