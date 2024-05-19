@@ -24,30 +24,32 @@
         <button id="snr_find" href="/projects/webform/hotelreg/find/">Find a record</button>
     </section>
     <section class="content">
-        <form class="hrform" id="hrform" netlify> <!-- hr = hotelreg -->
-            <label class="hrftitle">Hotel History Database</label>
-            <hr>
-            <label class="hrflabel">Hotel name <a style="color:red">*</a></label>
-            <input class="hrfinput" required></input><br>
-            <label class="hrflabel">Where is it? <a style="color:red">*</a></label>
-            <input class="hrfinput" required></input><br>
-            <label class="hrflabel">Check-in day</label><a style="color:red">*</a></label>
-            <input type="date" required></input><br>
-            <label class="hrflabel">Check-out day</label><a style="color:red">*</a></label>
-            <input type="date" required></input><br>
-            <label class="hrflabel">Book from where?</label><a style="color:red">*</a></label>
-            <select name="bookwhere" id="bookwhere" required>
-                <option value="agoda">agoda</option>
-                <option value="booking.com">booking.com</option>
-                <option value="airbnb">airbnb</option>
-            </select><br>
-            <form action="?" method="POST">
-                <div class="g-recaptcha" data-sitekey="6LeZjOEpAAAAANr-GvoanPU_yjWUlValC0BC_bI9"></div>
-            </form>
-            <br>
-            <input type="submit">Submit</input>
+        <div class="hrfoutline"></div>
+            <form class="hrform" id="hrform" netlify> <!-- hr = hotelreg -->
+                <label class="hrftitle">Hotel History Database</label>
+                <hr>
+                <label class="hrflabel">Hotel name <a style="color:red">*</a></label>
+                <input class="hrfinput" required></input><br>
+                <label class="hrflabel">Where is it? <a style="color:red">*</a></label>
+                <input class="hrfinput" required></input><br>
+                <label class="hrflabel">Check-in day</label><a style="color:red">*</a></label>
+                <input type="date" required></input><br>
+                <label class="hrflabel">Check-out day</label><a style="color:red">*</a></label>
+                <input type="date" required></input><br>
+                <label class="hrflabel">Book from where?</label><a style="color:red">*</a></label>
+                <select name="bookwhere" id="bookwhere" required>
+                    <option value="agoda">agoda</option>
+                    <option value="booking.com">booking.com</option>
+                    <option value="airbnb">airbnb</option>
+                </select><br>
+                <form action="?" method="POST">
+                    <div class="g-recaptcha" data-sitekey="6LeZjOEpAAAAANr-GvoanPU_yjWUlValC0BC_bI9"></div>
+                </form>
+                <br>
+                <input type="submit">Submit</input>
 
-        </form>
+            </form>
+        </div>
     </section>
 </body>
 </html>
