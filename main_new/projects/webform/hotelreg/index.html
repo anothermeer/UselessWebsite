@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Just a normal website (aka melonlinks website)">
+    <link rel="stylesheet" href="/static/css/hotelreg.css">
+    <link rel="stylesheet" href="/static/css/uni.css">
+    <link rel="icon" type="image/x-icon" href="/static/imgs/favicon.ico">
+    <title>Melonlinks - Hotel History</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/projects/">Projects</a>
+            <a href="/files/">Files</a>
+            <a href="/donate/">Donate Me!</a>
+        </nav>
+    </header>
+    <section class="subnav">
+        <button id="snl_add" href="#">Add new record</button>
+        <button id="snr_find" href="/projects/webform/hotelreg/find/">Find a record</button>
+    </section>
+    <section class="content">
+        <form class="hrform" id="hrform" netlify> <!-- hr = hotelreg -->
+            <label class="hrftitle">Hotel History Database</label>
+            <hr>
+            <label class="hrflabel">Hotel name <a style="color:red">*</a></label>
+            <input class="hrfinput" required></input><br>
+            <label class="hrflabel">Where is it? <a style="color:red">*</a></label>
+            <input class="hrfinput" required></input><br>
+            <label class="hrflabel">Check-in day</label><a style="color:red">*</a></label>
+            <input type="date" required></input><br>
+            <label class="hrflabel">Check-out day</label><a style="color:red">*</a></label>
+            <input type="date" required></input><br>
+            <label class="hrflabel">Book from where?</label><a style="color:red">*</a></label>
+            <select name="bookwhere" id="bookwhere" required>
+                <option value="agoda">agoda</option>
+                <option value="booking.com">booking.com</option>
+                <option value="airbnb">airbnb</option>
+            </select><br>
+        </form>
+    </section>
+</body>
+</html>
