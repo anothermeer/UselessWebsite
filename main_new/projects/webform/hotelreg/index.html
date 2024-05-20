@@ -21,7 +21,7 @@
     </header>
     <section class="content">
         <div class="hrfoutline">
-            <form class="hrform" id="hrform" netlify> <!-- hr = hotelreg -->
+            <form class="hrform" id="hrform" action="/projects/webform/form_handlr.php" method="POST" netlify> <!-- hr = hotelreg -->
                 <label class="hrftitle">Hotel History Database</label>
                 <section class="subnav">
                     <button id="snl_add" href="#">Add new record</button>
@@ -29,19 +29,21 @@
                 </section>
                 <hr>
                 <label class="hrflabel" name="hrflabel">Hotel name <a style="color:red">*</a></label>
-                <input class="hrfinput" name="hrfinput" required></input><br>
+                <input class="hrfinput" name="hrfinput_hn" required></input><br>
                 <label class="hrflabel" name="hrflabel">Where is it? <a style="color:red">*</a></label>
-                <input class="hrfinput" name="hrfinput" required></input><br>
+                <input class="hrfinput" name="hrfinput_loc" required></input><br>
                 <label class="hrflabel" name="hrflabel">Check-in day</label><a style="color:red">*</a></label>
-                <input type="date" class="hrfdate" name="hrfdate" required></input><br>
+                <input type="date" class="hrfdate" name="hrfdate_in" required></input><br>
                 <label class="hrflabel" name="hrflabel">Check-out day</label><a style="color:red">*</a></label>
-                <input type="date" class="hrfdate" name="hrfdate" required></input><br>
+                <input type="date" class="hrfdate" name="hrfdate_out" required></input><br>
                 <label class="hrflabel" name="hrflabel">Book from where?</label><a style="color:red">*</a></label>
                 <select name="bookwhere" id="bookwhere" name="hrfbookwhere" required>
                     <option value="agoda">agoda</option>
                     <option value="booking.com">booking.com</option>
                     <option value="airbnb">airbnb</option>
                 </select><br>
+                <label class="hrflabel" name="hrflabel">Comment</label>
+                <textarea class="hrfinput" name="hrfinput_comment" rows="3" cols="40"></textarea>
                 <form action="?" method="POST">
                     <div class="g-recaptcha" data-sitekey="6LeZjOEpAAAAANr-GvoanPU_yjWUlValC0BC_bI9"></div>
                 </form>
