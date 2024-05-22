@@ -17,6 +17,19 @@ content {
     transition-duration: 0.4s;
 }
 
+button {
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color:whitesmoke;
+    color: black;
+    transition-duration: 0.4s;
+}
+
 .hrfoutline {
     border: 4px solid white;
     border-radius: 5px;
