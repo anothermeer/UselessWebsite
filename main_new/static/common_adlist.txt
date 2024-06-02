@@ -1,6 +1,6 @@
 # Title: comon ad lists
 # Description : When I sees an ad, I add it here.
-# Count: 46 domains
+# Count: 50+ domains
 
 0.0.0.0 cpro.baidu.com
 0.0.0.0 union.baidu.com
@@ -21,6 +21,7 @@
 0.0.0.0 48206bff310e95033aa547708c7d88e8.safeframe.googlesyndication.com
 0.0.0.0 r3---sn-30a7ynek.c.2mdn.net
 0.0.0.0 www.google-analytics.com
+0.0.0.0 google-analytics.com
 0.0.0.0 o.clarity.ms
 0.0.0.0 proton.ad.gt
 0.0.0.0 am-api.taboola.com
@@ -30,7 +31,6 @@
 0.0.0.0 lupic.cdn.bcebos.com
 0.0.0.0 cpro.baidustatic.com
 0.0.0.0 wn.pos.baidu.com
-0.0.0.0 www.googleadservices.com
 0.0.0.0 imageproxy.as.criteo.net
 0.0.0.0 exch.quantserve.com
 0.0.0.0 aax.amazon-adsystem.com
