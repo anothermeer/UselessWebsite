@@ -21,19 +21,20 @@
     
     <section class="content">
         <h3 class="text title">SongDB Entry Form</h3>
-        <form name="SongDB">
+        <form id="SongDB_DataAdder" name="SongDB" method="POST" data-netlify="true" data-netlify-recaptcha="true">
         <label class="form form_label" name="form_songname">Song Name: </label><br>
-        <input class="form form_input"></input><br>
+        <input class="form form_input validate" type="text"></input><br>
         <label class="form form_label" name="form_lang">Language: </label><br>
-        <input class="form form_input"></input><br>
+        <input class="form form_input validate" type="text"></input><br>
         <label class="form form_label" name="form_inputsrc">Input Source: </label><br>
-        <input class="form form_input"></input><br>
+        <input class="form form_input validate" type="text"></input><br>
         <label class="form form_label" name="form_author">Author: </label><br>
-        <input class="form form_input"></input><br>
+        <input class="form form_input validate" type="text"></input><br>
         <label class="form form_label" name="form_length">Length: </label><br>
-        <input class="form form_input"></input><br>
+        <input class="form form_input validate" type="text"></input><br>
         <label class="form form_label" name="form_yearpublished">Year Published: </label><br>
-        <input class="form form_input"></input><br><br>
+        <input class="form form_input validate" type="text"></input><br><br>
+        <div data-netlify-recaptcha="true"></div>
         <button class="form form_submitbtn" type="submit">[Submit]</button>
         <button class="form form_switchbtn" type="button">[Switch to Finder]</button>
         </form>
