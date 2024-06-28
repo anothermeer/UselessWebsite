@@ -124,3 +124,27 @@ nav a:hover {
     font-family: Lato;
     transition-duration: 0.4s;
 }
+
+.animated-button {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-family: Lato;
+    transition-duration: 0.4s;
+}
+
+.animated-button:hover {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-family: Lato;
+    transition-duration: 0.4s;
+}
