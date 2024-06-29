@@ -40,32 +40,10 @@ nav a:hover {
 
 }
 
-.linkformat {
-    text-decoration: none;
-    color: lightskyblue;
+#quicklinks {
+    color: white;
+    font-family: Lato;
+    text-align: center;
+    border: 5px gray solid;
+    margin: 20px;
 }
-
-/* This is for nav dropdown menu, but it's abandoned */
-/* .dropdown {
-    float: left;
-    overflow: hidden;
-}
-
-.dropdown .dropdownbtn {
-    border: none;
-    outline: none;
-    padding: 14px 16px;
-    margin: 0;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-content{
-    display: block;
-}*/
-
